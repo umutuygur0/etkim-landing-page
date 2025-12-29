@@ -7,10 +7,7 @@ const Tanitim = () => {
   ]
 
   return (
-    <section
-      id="tanitim"
-      className="py-20 px-4 md:px-6 lg:px-8 bg-white"
-    >
+    <section id="tanitim" className="py-20 px-4 md:px-6 lg:px-8 bg-white">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Sol: Ürün Açıklaması */}
@@ -51,7 +48,7 @@ const Tanitim = () => {
           <div className="bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl p-8 shadow-xl">
             <div className="rounded-lg overflow-hidden bg-white">
               <img
-                src="/vrgörsel.png"
+                src="public/vrgorsel.png"
                 alt="VR Senaryo Görseli"
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
               />
@@ -64,4 +61,3 @@ const Tanitim = () => {
 }
 
 export default Tanitim
-
