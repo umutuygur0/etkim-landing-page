@@ -48,7 +48,7 @@ const Tanitim = () => {
           <div className="bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl p-8 shadow-xl">
             <div className="rounded-lg overflow-hidden bg-white">
               <img
-                src="public/vrgorsel.png"
+                src=""
                 alt="VR Senaryo Görseli"
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
               />
